@@ -1,0 +1,15 @@
+{
+  "name": "circular_dependancies",
+  "version": "1.0.0",
+  "description": "circular deps test",
+  "main": "entry.js",
+  "scripts": {
+    "start": "node_modules/babel-cli/bin/babel-node.js entry.js"
+  },
+  "author": "Konstantinos Stratis",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
